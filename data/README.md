@@ -2,7 +2,7 @@
 
 This directory contains the CSV files required for analysis. **These three specific CSV files are included in the repository to enable reproduction of thesis results.**
 
-⚠️ **Important**: These files contain anonymized data for research purposes. The .gitignore is configured to prevent accidentally committing any other CSV files to the repository.
+**Important**: These files contain anonymized data for research purposes. The .gitignore is configured to prevent accidentally committing any other CSV files to the repository.
 
 ## Included Files
 
@@ -80,15 +80,15 @@ The three CSV files in this directory are **included in the repository** to enab
 - Safeguarding children's privacy
 - Ethical research practice
 
-⚠️ **Note**: The `.gitignore` is configured to prevent accidentally committing any OTHER CSV files to the repository. Only the three specific 2031 files are allowed.
+**Note**: The `.gitignore` is configured to prevent accidentally committing any OTHER CSV files to the repository. Only the three specific 2031 files are allowed.
 
 ### Required Approvals
 Before using these scripts with real data, you must have:
-- ✅ Ethical approval from relevant research ethics committee
-- ✅ Data protection impact assessment (DPIA)
-- ✅ Legal basis for processing under GDPR
-- ✅ Appropriate data sharing agreements
-- ✅ Secure data storage arrangements
+- Ethical approval from relevant research ethics committee
+- Data protection impact assessment (DPIA)
+- Legal basis for processing under GDPR
+- Appropriate data sharing agreements
+- Secure data storage arrangements
 
 ### Anonymisation
 Data should be:
