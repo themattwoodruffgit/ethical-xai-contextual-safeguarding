@@ -1,0 +1,65 @@
+Feature,Importance,Feature (readable)
+CSFRI_Percentile,1.212042123950693,CSFRI: Percentile
+sum_achievement_points,0.27283742406059996,sum: achievement_points
+sum_behaviour_points,0.2619379417548332,sum: behaviour_points
+SEN_Status_0,0.19445742712732972,SEN: Status_0
+Pupil_Premium_Indicator_0,0.1519261916544058,Pupil: Premium_Indicator_0
+Pupil_Premium_Indicator_1,0.14749019431043528,Pupil: Premium_Indicator_1
+Percentage_Unauthorised_Absence,0.09712135835866986,Percentage: Unauthorised_Absence
+Is_Persistently_Absent & sum_behaviour_points,0.055930959601405386,Is: Persistently_Absent & sum_behaviour_points
+Current_NC_Year,0.05378140042899424,Current: NC_Year
+Current_Year,0.05297457315452614,Current: Year
+Gender_1,0.04465654486701708,Gender: 1
+Gender_0,0.04345263298755339,Gender: 0
+Is_Persistently_Absent,0.03200696064935432,Is: Persistently_Absent
+SEN_Status_1,0.028917884531424742,SEN: Status_1
+sum_exclusion_days,0.026383337743078557,sum: exclusion_days
+CSFRI_Percentile & sum_behaviour_points,0.02476409534525825,CSFRI: Percentile & sum_behaviour_points
+CSFRI_Percentile & Is_Persistently_Absent,0.024105023384981817,CSFRI: Percentile & Is_Persistently_Absent
+sum_achievement_points & sum_behaviour_points,0.02217996264199555,sum: achievement_points & sum_behaviour_points
+Is_Persistently_Absent & SEN_Status_2,0.02057805947893667,Is: Persistently_Absent & SEN_Status_2
+Pupil_Premium_Indicator_1 & sum_achievement_points,0.020242623771047425,Pupil: Premium_Indicator_1 & sum_achievement_points
+Pupil_Premium_Indicator_0 & sum_achievement_points,0.019923359639926003,Pupil: Premium_Indicator_0 & sum_achievement_points
+Percentage_Unauthorised_Absence & sum_behaviour_points,0.018430823179780308,Percentage: Unauthorised_Absence & sum_behaviour_points
+Gender_0 & SEN_Status_0,0.0179771414994893,Gender: 0 & SEN_Status_0
+Gender_1 & SEN_Status_0,0.017905869057146424,Gender: 1 & SEN_Status_0
+CSFRI_Percentile & Percentage_Unauthorised_Absence,0.01767293619312834,CSFRI: Percentile & Percentage_Unauthorised_Absence
+Is_Severely_Absent,0.017286048818054667,Is: Severely_Absent
+CSFRI_Percentile & sum_achievement_points,0.017017630189373297,CSFRI: Percentile & sum_achievement_points
+Current_NC_Year & Percentage_Unauthorised_Absence,0.01666333463425862,Current: NC_Year & Percentage_Unauthorised_Absence
+CSFRI_Percentile & Current_NC_Year,0.015996010446701372,CSFRI: Percentile & Current_NC_Year
+CSFRI_Percentile & Current_Year,0.015871083849537136,CSFRI: Percentile & Current_Year
+Is_Persistently_Absent & Percentage_Unauthorised_Absence,0.015713816776092158,Is: Persistently_Absent & Percentage_Unauthorised_Absence
+Current_Year & Percentage_Unauthorised_Absence,0.014791947976723677,Current: Year & Percentage_Unauthorised_Absence
+Gender_0 & Percentage_Unauthorised_Absence,0.012996390882927233,Gender: 0 & Percentage_Unauthorised_Absence
+Gender_1 & Percentage_Unauthorised_Absence,0.012971589039300464,Gender: 1 & Percentage_Unauthorised_Absence
+CSFRI_Percentile & Gender_1,0.011824475562425232,CSFRI: Percentile & Gender_1
+Current_Year & Pupil_Premium_Indicator_1,0.011464395364734108,Current: Year & Pupil_Premium_Indicator_1
+CSFRI_Percentile & Gender_0,0.011401900191792843,CSFRI: Percentile & Gender_0
+Current_NC_Year & Gender_0,0.011295405059903514,Current: NC_Year & Gender_0
+Current_Year & Pupil_Premium_Indicator_0,0.01114443864177829,Current: Year & Pupil_Premium_Indicator_0
+Current_Year & Gender_0,0.010882267338269563,Current: Year & Gender_0
+CSFRI_Percentile & sum_exclusion_days,0.010870857487105975,CSFRI: Percentile & sum_exclusion_days
+Current_Year & Gender_1,0.010805277814205146,Current: Year & Gender_1
+Current_NC_Year & Pupil_Premium_Indicator_0,0.010681145955908728,Current: NC_Year & Pupil_Premium_Indicator_0
+Current_NC_Year & Pupil_Premium_Indicator_1,0.010314146909964734,Current: NC_Year & Pupil_Premium_Indicator_1
+Current_NC_Year & Gender_1,0.010031235538656967,Current: NC_Year & Gender_1
+Is_Severely_Absent & SEN_Status_2,0.009652200427363353,Is: Severely_Absent & SEN_Status_2
+Percentage_Unauthorised_Absence & sum_achievement_points,0.009440496099230332,Percentage: Unauthorised_Absence & sum_achievement_points
+Current_NC_Year & sum_behaviour_points,0.00862291468021231,Current: NC_Year & sum_behaviour_points
+Current_NC_Year & SEN_Status_0,0.00835178821719711,Current: NC_Year & SEN_Status_0
+Current_Year & SEN_Status_0,0.00815501731989635,Current: Year & SEN_Status_0
+Current_Year & sum_behaviour_points,0.007621173164272868,Current: Year & sum_behaviour_points
+Current_Year & sum_achievement_points,0.007553729057639406,Current: Year & sum_achievement_points
+SEN_Status_2 & sum_achievement_points,0.007531795755968791,SEN: Status_2 & sum_achievement_points
+sum_achievement_points & sum_exclusion_days,0.007061030495008279,sum: achievement_points & sum_exclusion_days
+Current_NC_Year & sum_achievement_points,0.006966889669513503,Current: NC_Year & sum_achievement_points
+sum_behaviour_points & sum_exclusion_days,0.006424187491515175,sum: behaviour_points & sum_exclusion_days
+Current_NC_Year & SEN_Status_2,0.005520838967918747,Current: NC_Year & SEN_Status_2
+Percentage_Unauthorised_Absence & sum_exclusion_days,0.005473580796335835,Percentage: Unauthorised_Absence & sum_exclusion_days
+Gender_0 & SEN_Status_2,0.005410770913611471,Gender: 0 & SEN_Status_2
+Gender_1 & SEN_Status_2,0.005356913828009987,Gender: 1 & SEN_Status_2
+Current_Year & SEN_Status_2,0.005315550783602604,Current: Year & SEN_Status_2
+SEN_Status_2,0.004527423887106744,SEN: Status_2
+Current_NC_Year & sum_exclusion_days,0.00443462218115818,Current: NC_Year & sum_exclusion_days
+Current_Year & sum_exclusion_days,0.004424305965376571,Current: Year & sum_exclusion_days
