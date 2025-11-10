@@ -1,10 +1,10 @@
 # Thesis Results Reproduction Scripts
 
-These three standalone Python scripts reproduce the exact results from your thesis. Each script is self-contained and requires only the CSV files in the same directory.
+These three standalone Python scripts reproduce the exact results from the thesis. Each script is self-contained and requires only the CSV files in the parent data directory.
 
 ## Files Overview
 
-### 1. `comparative_results.py`
+### 1. `Results-1-comparative.py`
 **Purpose**: Produces comparative results across 6 algorithms and 3 models, including PyGOL rule generation
 
 **Algorithms Tested**:
@@ -36,7 +36,7 @@ max_neg: 3
 default_div: 8
 ```
 
-### 2. `fairness_testing_ebm.py`
+### 2. `Results-2-fairness-ebm.py`
 **Purpose**: Statistical fairness testing comparing Base vs CSRI models using EBM
 
 **Analysis Methods**:
@@ -63,7 +63,7 @@ N_BOOTSTRAP: 1000
 TEST_SIZE: 0.5
 ```
 
-### 3. `fairness_hybrid_model.py`
+### 3. `Results-3-hybrid.py`
 **Purpose**: Novel hybrid EBM-PyGOL model with confidence-based routing
 
 **Main Contribution**: Hybrid model that routes predictions based on:
@@ -94,16 +94,16 @@ RANDOM_STATE: 42
 TEST_SIZE: 0.5
 ```
 
-**PyGOL Simulation**: The script simulates PyGOL with the exact performance characteristics from your thesis (74.7% recall, 47.1% specificity). In production, you would replace this with actual PyGOL calls.
+**PyGOL Simulation**: The script simulates PyGOL with the exact performance characteristics from the thesis (74.7% recall, 47.1% specificity). In production, this would be replaced with actual PyGOL calls.
 
 ## Setup Instructions
 
 ### 1. Required Files
-Place these CSV files in the same directory as the Python scripts:
-- `base_exact_2031.csv`
-- `full_exact_2031.csv`
-- `csfri_exact_2031.csv`
-- `BK.pl` (background knowledge file for PyGOL)
+The CSV files are located in the `../data/` directory:
+- `../data/base_exact_2031.csv`
+- `../data/full_exact_2031.csv`
+- `../data/csfri_exact_2031.csv`
+- `../data/BK.pl` (background knowledge file for PyGOL)
 
 ### 2. Dependencies
 Install required packages:
@@ -120,32 +120,32 @@ pip install interpret-core --break-system-packages
 
 **Run all three sequentially**:
 ```bash
-python3 comparative_results.py
-python3 fairness_testing_ebm.py
-python3 fairness_hybrid_model.py
+python3 Results-1-comparative.py
+python3 Results-2-fairness-ebm.py
+python3 Results-3-hybrid.py
 ```
 
 **Or run individually**:
 ```bash
 # Scenario 1: Comparative results
-python3 comparative_results.py
+python3 Results-1-comparative.py
 
 # Scenario 2: Fairness testing
-python3 fairness_testing_ebm.py
+python3 Results-2-fairness-ebm.py
 
 # Scenario 3: Hybrid model
-python3 fairness_hybrid_model.py
+python3 Results-3-hybrid.py
 ```
 
 ## Expected Runtime
 
-- `comparative_results.py`: ~10-15 minutes (PyGOL training is time-consuming)
-- `fairness_testing_ebm.py`: ~5-8 minutes (15 CV folds + bootstrap)
-- `fairness_hybrid_model.py`: ~2-3 minutes
+- `Results-1-comparative.py`: ~10-15 minutes (PyGOL training is time-consuming)
+- `Results-2-fairness-ebm.py`: ~5-8 minutes (15 CV folds + bootstrap)
+- `Results-3-hybrid.py`: ~2-3 minutes
 
 ## Configuration Preservation
 
-All hyperparameters and configurations are EXACTLY as specified in your notebooks:
+All hyperparameters and configurations are EXACTLY as specified in the thesis notebooks:
 
 - Random states: 42 (consistent across all analyses)
 - Train/test splits: 50-50 (test_size=0.5) for most analyses
@@ -156,7 +156,7 @@ All hyperparameters and configurations are EXACTLY as specified in your notebook
 
 ## Verification
 
-To verify the outputs match your thesis:
+To verify the outputs match the thesis results:
 
 1. **Comparative Results**: Check that PyGOL recall ≈ 0.747 and specificity ≈ 0.471 for CSRI model
 2. **Fairness Testing**: Verify CSRI shows statistically significant improvements (p < 0.05) across all metrics
@@ -172,26 +172,26 @@ If PyGOL fails:
 
 ### Memory Issues
 If you encounter memory errors:
-- Reduce `n_bootstrap` in `fairness_testing_ebm.py` from 1000 to 500
+- Reduce `n_bootstrap` in `Results-2-fairness-ebm.py` from 1000 to 500
 - Run scripts individually rather than sequentially
 
 ### Missing Files
 If CSV files are not found:
-- Ensure all files are in the same directory as the scripts
+- Ensure all files are in the `../data/` directory
 - Check file names match exactly (case-sensitive)
 
 ## Notes
 
 1. **Console Output**: All scripts provide detailed console output. Consider redirecting to log files:
    ```bash
-   python3 comparative_results.py > comparative_results.log 2>&1
+   python3 Results-1-comparative.py > comparative_results.log 2>&1
    ```
 
-2. **Reproducibility**: All random seeds are set to 42 for exact reproducibility. Results should match your thesis exactly.
+2. **Reproducibility**: All random seeds are set to 42 for exact reproducibility. Results should match the thesis exactly.
 
 3. **File Cleanup**: PyGOL creates temporary files (`meta_*.info`, `pos_*.f`, `neg_*.n`) which are automatically cleaned up after each run.
 
-4. **British English**: All output text uses British spelling (e.g., "visualisation", "optimising", "behaviour") as per your thesis style.
+4. **British English**: All output text uses British spelling (e.g., "visualisation", "optimising", "behaviour") as per the thesis style.
 
 ## Contact
 
