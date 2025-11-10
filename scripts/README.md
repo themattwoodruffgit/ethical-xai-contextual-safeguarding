@@ -193,13 +193,3 @@ If CSV files are not found:
 
 4. **British English**: All output text uses British spelling (e.g., "visualisation", "optimising", "behaviour") as per the thesis style.
 
-## Contact
-
-If you encounter any issues or need to verify specific results, the scripts include detailed comments and configuration sections at the top of each file for easy reference.
-
----
-
-**Generated**: 9 November 2025  
-**Thesis**: Ethical Explainable-based Contextual Safeguarding  
-**Author**: Matt Woodruff  
-**Institution**: PhD in Computer Science
