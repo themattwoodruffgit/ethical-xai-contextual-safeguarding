@@ -123,7 +123,7 @@ If you use this code in your research, please cite:
   title={Ethical Explainable AI-based Contextual Safeguarding},
   author={Woodruff, Matthew},
   year={2025},
-  school={[Your Institution]},
+  school={University of Surrey},
   note={PhD Thesis}
 }
 ```
