@@ -1,0 +1,21 @@
+# Core Data Science Libraries
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Visualisation
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Statistical Analysis
+scipy>=1.11.0
+
+# Explainability
+interpret>=0.4.0
+
+# PyGOL - Inductive Logic Programming
+# IMPORTANT: Install PyGOL from GitHub as it's not available on PyPI
+# Install using: pip install git+https://github.com/logic-and-learning-lab/PyGol.git
+#
+# Note: PyGOL installation may require additional system dependencies
+# See: https://github.com/logic-and-learning-lab/PyGol for details

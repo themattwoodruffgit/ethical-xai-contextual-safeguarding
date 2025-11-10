@@ -1,0 +1,108 @@
+# Sensitive Data - CRITICAL: DO NOT COMMIT
+# These files contain real student data and safeguarding information
+# Block all CSV files by default
+*.csv
+
+# EXCEPT: Allow the three specific 2031 CSV files needed for thesis reproduction
+!data/base_exact_2031.csv
+!data/full_exact_2031.csv
+!data/csfri_exact_2031.csv
+
+# Also allow example/template files if needed
+!*example*.csv
+!*template*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+safeguarding_venv/
+
+# PyGOL temporary files
+meta_*.info
+pos_*.f
+neg_*.n
+*.pl.tmp
+pygol_temp/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+!*example*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Output files (keep examples, ignore bulk outputs)
+# Uncomment these if you want to exclude all outputs:
+# outputs/**/*.png
+# outputs/**/*.pdf
+# outputs/**/*.csv
+# outputs/**/*.txt
+
+# But DO commit example outputs:
+!outputs/**/example_*.png
+!outputs/**/example_*.pdf
+!outputs/**/example_*.csv
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*~
+
+# Model files (if you save trained models)
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Data backups
+backup/
+archives/
+old/
+
+# Personal notes
+notes.txt
+todo.txt
+scratch/
