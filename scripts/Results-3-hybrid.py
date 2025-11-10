@@ -466,7 +466,7 @@ def run_advanced_mitigation_experiments():
     
     # Summary for thesis
     print("\n" + "="*80)
-    print("SUMMARY FOR THESIS")
+    print("SUMMARY")
     print("="*80)
     
     print("\nKEY FINDINGS:")
