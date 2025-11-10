@@ -14,8 +14,8 @@ scipy>=1.11.0
 interpret>=0.4.0
 
 # PyGOL - Inductive Logic Programming
-# IMPORTANT: Install PyGOL from GitHub as it's not available on PyPI
-# Install using: pip install git+https://github.com/logic-and-learning-lab/PyGol.git
+# IMPORTANT: https://github.com/danyvarghese/PyGol
+# 
 #
 # Note: PyGOL installation may require additional system dependencies
-# See: https://github.com/logic-and-learning-lab/PyGol for details
+# See: https://github.com/danyvarghese/PyGol for details
